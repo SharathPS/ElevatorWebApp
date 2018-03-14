@@ -18,4 +18,4 @@ mvn clean install -Dmaven.tomcat.port=8292 tomcat:run-war
 1. ``<applicationhosted>/elevator/<elevatorId>/goto/<floorNumber>``: Commuter to select the floorNumber (PUT)
 2. ``<applicationhosted>/elevator/<elevatorId>/stop``: To stop the elevator identified by the ``elevatorId`` (PUT)
 
-### <applicationhosted>: http://localhost:8292/ElevatorWebApp
+##### applicationhosted: http://localhost:8292/ElevatorWebApp
